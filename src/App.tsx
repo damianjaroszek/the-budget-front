@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {TestButton} from "./TestButton/TestButton";
+import {MainView} from "./views/MainView";
 
 export const App = () => {
     return (
         <>
-            <TestButton/>
+            <MainView/>
         </>
     );
 };
